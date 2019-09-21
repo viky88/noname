@@ -7,7 +7,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "noname\\verifycode": "verifycode/src/"
+            "noname\\": ""
         }
     }
 }
