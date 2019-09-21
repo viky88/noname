@@ -1,7 +1,7 @@
 {
     "name": "viky/noname",
-    "description": "noname project",
-    "type": "project",
+    "description": "noname library",
+    "type": "library",
     "license": "Apache-2.0",
     "authors": [
         {
