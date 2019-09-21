@@ -2,13 +2,11 @@
     "name": "viky/noname",
     "description": "noname library",
     "type": "library",
-    "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "viky88",
-            "email": "viky88@vip.qq.com"
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "noname\\verifycode": "verifycode/src/"
         }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+    },
 }
