@@ -3,10 +3,11 @@
     "description": "noname library",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
             "noname\\verifycode": "verifycode/src/"
         }
-    },
+    }
 }
