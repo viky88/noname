@@ -1,5 +1,5 @@
 <?php
-
+namespace noname\verifycode;
 /**
  * 验证码
  * Class VerifyCode
