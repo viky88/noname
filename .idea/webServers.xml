@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="91dbb1c8-3271-4961-b0c5-396afe3755fc" name="dev.noname.com" url="http://47.92.112.175">
+        <fileTransfer host="47.92.112.175" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/docker-lnmp/nginx/www/noname.deeptax.cn" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

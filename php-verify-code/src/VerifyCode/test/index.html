@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片验证码</title>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    验证码：<input type="text" name="code" id="code"> 
+    <img src="code.php" id="code_img">
+    <input type="button" value="验证" id="valid">
+<script>
+    $(function(){
+        $("#code_img").click(function(){
+            $(this).attr("src",'code.php?' + Math.random());
+        });
+        $('#valid').click(function () {
+            $.get('valid.php?code=' + $('#code').val(),function ($data) {
+                alert($data);
+            });
+        });
+    });
+</script>
+</body>
+</html>

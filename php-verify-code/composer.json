@@ -1,0 +1,17 @@
+{
+    "name": "noname/php-verify-code",
+    "description": "Verify Code for PHP",
+    "keywords": [ "noname", "php", "verfify" ,"code" ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "homepage": "",
+    "authors": [
+        {
+            "name": "noname",
+            "homepage": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    }
+}
