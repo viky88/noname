@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "noname\\verifycode\\": "src"
+            "viky\\noname\\verifycode\\": "src"
         }
     }
 }
